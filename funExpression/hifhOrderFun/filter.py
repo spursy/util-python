@@ -12,6 +12,7 @@ def not_empty(s):
 result2 = list(filter(not_empty, ['A', '', 'B', None, 'C']))
 print(result2)
 
+
 # calculate prime numbers
 def _odd_iter():
     n = 1
